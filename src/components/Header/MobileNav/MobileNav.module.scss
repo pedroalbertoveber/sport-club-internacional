@@ -1,0 +1,44 @@
+@import 'styles/_colors.scss';
+
+.container {
+  background-color: #333;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+
+  .menu .menu__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    li {
+      padding: 15px;
+      color: $white-default;
+      width: 100%;
+      cursor: pointer;
+      transition: all .2s ease-in;
+
+      &:hover {
+        background-color: rgba(255,255,255,0.3);
+      }
+    }
+  }
+
+  button {
+    padding: 8px;
+    font-size: 1em;
+    background-color: $yellow-default;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+  }
+}
+
+.hidden {
+  right: 100vw;
+  transition: all .2s ease;
+  overflow: hidden;
+}
