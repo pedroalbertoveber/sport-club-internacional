@@ -1,0 +1,14 @@
+@import 'styles/_colors.scss';
+
+.addressContainer {
+  background-color: $dark-grey;
+  padding: 2em;
+  padding-bottom: 1em;
+  color: $medium-grey;
+  font-style: normal;
+  font-weight: 300;
+
+  .title {
+    font-weight: 600;
+  }
+}

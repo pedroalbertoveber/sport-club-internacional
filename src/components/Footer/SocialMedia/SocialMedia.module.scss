@@ -1,0 +1,52 @@
+@import 'styles/_colors.scss';
+
+.mediaContainer {
+  background-color: $dark-grey;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .title {
+    margin-bottom: 1em;
+
+    span {
+    font-weight: 600;
+    color: $medium-grey;
+    font-size: 1.2em;
+    } 
+  }
+
+  .mediaList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    li {
+      margin-right: 1em;
+      padding: 5px;
+      display: flex;
+      width: 50px;
+      height: 50px;
+      align-items: center;
+      justify-content: center;
+      background-color: $background-default;
+      border-radius: 50%;
+      transition: all 0.2s;
+      cursor: pointer;
+
+      a svg {
+        font-size: 1.9em;
+        color: $dark-grey;
+      }
+
+      &:hover {
+        background-color: $red-default;
+
+        a svg {
+          color: $background-default;
+        }
+      }
+    }
+  }
+}

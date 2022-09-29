@@ -3,12 +3,13 @@
 .container {
   background-color: #333;
   position: absolute;
-  top: 100px;
+  top: 130px;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 0 15px;
+  z-index: 1;
 
   .menu .menu__list {
     display: flex;

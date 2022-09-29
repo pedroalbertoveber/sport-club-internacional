@@ -1,0 +1,32 @@
+@import "styles/_colors.scss";
+
+.supportersContainer {
+  background-color: $light-grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3em;
+
+  .title {
+    padding: 1em;
+
+    h4 {
+      font-weight: 600;
+      color: $medium-grey;
+    }
+  }
+
+  .supportersImg {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+      max-width: 250px;
+      max-height: 80px;
+      padding: 1em 3em;
+    }
+  }
+}

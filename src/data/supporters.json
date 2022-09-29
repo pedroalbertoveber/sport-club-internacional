@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Brahma",
+    "imagePath": "assets/parceiros/brahma-logo.png"
+  },
+  {
+    "id": 2,
+    "name": "Bio Seta",
+    "imagePath": "assets/parceiros/bioseta-logo.png"
+  },
+  {
+    "id": 3,
+    "name": "Konami",
+    "imagePath": "assets/parceiros/konami-logo.png"
+  },
+  {
+    "id": 4,
+    "name": "E-FootBall",
+    "imagePath": "assets/parceiros/efootball-logo.png"
+  }
+]

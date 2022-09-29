@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './components/Header';
+import PaginaPadrao from 'pages/PaginaPadrao';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <PaginaPadrao />
     </div>
   );
 }

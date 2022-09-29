@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Adidas",
+    "imagePath": "assets/partners/adidas-logo.png"
+  },
+  {
+    "id": 2,
+    "name": "Banrisul",
+    "imagePath": "assets/partners/banrisul-logo.png"
+  },
+  {
+    "id": 3,
+    "name": "Estrela Bet",
+    "imagePath": "assets/partners/estrelaBet-logo.png"
+  },
+  {
+    "id": 4,
+    "name": "Marquespan",
+    "imagePath": "assets/partners/marquespan-logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Unimed",
+    "imagePath": "assets/partners/unimed-logo.png"
+  },
+  {
+    "id": 6,
+    "name": "VERO",
+    "imagePath": "assets/partners/vero-logo.png"
+  }
+]
