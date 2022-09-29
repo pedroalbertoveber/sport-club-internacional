@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Fundação do Clube",
+    "year": 1909,
+    "description": "A origem do Sport Club Internacional está associada à integração entre povos de diferentes nacionalidades. Ao contrário dos outros times da capital gaúcha naquela época, voltados sobretudo a descendentes de alemães, o Inter nascia receptivo a variadas etnias. Três irmãos foram os responsáveis diretos pela fundação do Clube: Henrique Poppe Leão, José Eduardo Poppe e Luiz Madeira Poppe. Eles chegaram em Porto Alegre por volta de 1908, época em que a prática do futebol efervescia pelo Brasil",
+    "imgPath": "assets/history/imagemFundacao.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Anos 70",
+    "year": 1970,
+    "description": "Foi na década de 1970 que o Internacional mostrou definitivamente quem era a maior força do sul do Brasil. Foram três títulos brasileiros, um deles invicto – feito jamais igualado, assim como o octacampeonato gaúcho, conquistado entre 1969 e 1976. O Tri veio de maneira especial: sem conhecer o sabor da derrota. A equipe do técnico Ênio Andrade disputou 23 partidas na competição e não foi derrotada em nenhuma. A histórica campanha invicta foi repleta de grandes desafios, superando tradicionais equipes do futebol nacional, mas os adversários entravam em campo sabendo que seriam derrotados por Falcão e companhia. O Gigante explodia de alegria e o Inter reinava absoluto no futebol brasileiro.",
+    "imgPath": "assets/history/anos70.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Anos 2000",
+    "year": 2000,
+    "description": "Uma década mágica! Assim podem ser definidos os anos 2000 para o Internacional. Se em anos anteriores o Clube do Povo dominou o Brasil, na primeira década do século XXI a América e o Mundo ficaram vermelhos. A antiga obsessão pela Copa Libertadores finalmente chegou ao fim. Pelas mãos do eterno ídolo Fernandão, em 2006, a tradicional taça foi levantada pela primeira vez, em um Beira-Rio incandescente. Mas o ápice da redenção colorada chegaria no final do ano: o Mundial de Clubes da FIFA! Era de uma inesquecível geração vencedora, que eternizou, além do capitão da camisa 9, nomes como o de Tinga, Índio, Sobis e tantos outros.",
+    "imgPath": "assets/history/anos2000.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Campeão do Mundo",
+    "year": 2006,
+    "description": "Quem pensava que a alegria estava completa, se precipitou: o melhor ainda estava por vir. Em dezembro, no Japão, o Clube do Povo alcançou a maior glória de sua história – e sobre ninguém mais ninguém menos do que o poderoso Barcelona. O time espanhol contava com uma constelação formada por estrelas como Ronaldinho Gaúcho, melhor jogador do mundo na época, Iniesta, Xavi, Deco, Puyol e outros. Eles não foram páreo para o time colorado, que teve uma atuação impecável. O antológico gol da vitória veio no final do segundo tempo, em jogada magistral de Iarley, assinada por Adriano Gabiru. O dia 17 de dezembro de 2006 ficará para sempre lembrado como o dia em que o planeta ficou vermelho.",
+    "imgPath": "assets/history/campeaoDoMundo.jpg"
+  }
+]

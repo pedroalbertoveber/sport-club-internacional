@@ -17,3 +17,11 @@ export interface IPlayer {
   imagePath: string;
   mainTeam: boolean;
 }
+
+export interface IMemory {
+  id: number;
+  title: string;
+  year: number;
+  description: string;
+  imgPath: string;
+}
