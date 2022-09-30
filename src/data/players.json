@@ -10,7 +10,7 @@
       "nationality" : "Brasil",
       "number": 24,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/anthoni.jpg",
       "mainTeam": false
     },
     {
@@ -23,7 +23,7 @@
       "nationality" : "Brasil",
       "number": 1,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/daniel.jpg",
       "mainTeam": true
     },
     {
@@ -36,7 +36,7 @@
       "nationality" : "Brasil",
       "number": 52,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/emersonJr.jpg",
       "mainTeam": false
     },
     {
@@ -49,7 +49,7 @@
       "nationality" : "Brasil",
       "number": 12,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/keiller.jpg",
       "mainTeam": false
     },
     {
@@ -62,7 +62,7 @@
       "nationality" : "Argentina",
       "number": 25,
       "goals": 1,
-      "imagePath": ".../",
+      "imagePath": "assets/players/gabrielMercado.jpg",
       "mainTeam": true
     },
     {
@@ -75,7 +75,7 @@
       "nationality" : "Brasil",
       "number": 21,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/igorGomes.jpg",
       "mainTeam": false
     },
     {
@@ -88,7 +88,7 @@
       "nationality" : "Brasil",
       "number": 3,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/kaiqueRocha.jpg",
       "mainTeam": false
     },
     {
@@ -101,7 +101,7 @@
       "nationality" : "Brasil",
       "number": 40,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/roberto.jpg",
       "mainTeam": false
     },
     {
@@ -114,7 +114,7 @@
       "nationality" : "Brasil",
       "number": 4,
       "goals": 13,
-      "imagePath": ".../",
+      "imagePath": "assets/players/rodrigoMoledo.jpg",
       "mainTeam": false
     },
     {
@@ -127,7 +127,7 @@
       "nationality" : "Brasil",
       "number": 44,
       "goals": 1,
-      "imagePath": ".../",
+      "imagePath": "assets/players/vitao.jpg",
       "mainTeam": true
     },
     {
@@ -140,7 +140,7 @@
       "nationality" : "Argentina",
       "number": 16,
       "goals": 2,
-      "imagePath": ".../",
+      "imagePath": "assets/players/bustos.jpg",
       "mainTeam": true
     },
     {
@@ -153,7 +153,7 @@
       "nationality" : "Brasil",
       "number": 6,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/rene.jpg",
       "mainTeam": true
     },
     {
@@ -166,7 +166,7 @@
       "nationality" : "Brasil",
       "number": 36,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/thauanLara.jpg",
       "mainTeam": false
     },
     {
@@ -179,7 +179,7 @@
       "nationality" : "Brasil",
       "number": 22,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/weverton.jpg",
       "mainTeam": false
     },
     {
@@ -192,7 +192,7 @@
       "nationality" : "Brasil",
       "number": 10,
       "goals": 9,
-      "imagePath": ".../",
+      "imagePath": "assets/players/alanPatrick.jpg",
       "mainTeam": false
     },
     {
@@ -205,7 +205,7 @@
       "nationality" : "Brasil",
       "number": 8,
       "goals": 47,
-      "imagePath": ".../",
+      "imagePath": "assets/players/edenilson.jpg",
       "mainTeam": false
     },
     {
@@ -218,7 +218,7 @@
       "nationality" : "Brasil",
       "number": 26,
       "goals": 1,
-      "imagePath": ".../",
+      "imagePath": "assets/players/estevao.jpg",
       "mainTeam": false
     },
     {
@@ -231,7 +231,7 @@
       "nationality" : "Brasil",
       "number": 23,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/gabriel.jpg",
       "mainTeam": true
     },
     {
@@ -244,7 +244,7 @@
       "nationality" : "Brasil",
       "number": 37,
       "goals": 1,
-      "imagePath": ".../",
+      "imagePath": "assets/players/lucasRamos.jpg",
       "mainTeam": false
     },
     {
@@ -257,7 +257,7 @@
       "nationality" : "Brasil",
       "number": 5,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/liziero.jpg",
       "mainTeam": false
     },
     {
@@ -270,7 +270,7 @@
       "nationality" : "Estados Unidos da América",
       "number": 30,
       "goals": 6,
-      "imagePath": ".../",
+      "imagePath": "assets/players/johnny.jpg",
       "mainTeam": true
     },
     {
@@ -283,7 +283,7 @@
       "nationality" : "Brasil",
       "number": 27,
       "goals": 8,
-      "imagePath": ".../",
+      "imagePath": "assets/players/mauricio.jpg",
       "mainTeam": true
     },
     {
@@ -296,7 +296,7 @@
       "nationality" : "Brasil",
       "number": 41,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/matheusDias.jpg",
       "mainTeam": false
     },
     {
@@ -309,7 +309,7 @@
       "nationality" : "Brasil",
       "number": 35,
       "goals": 9,
-      "imagePath": ".../",
+      "imagePath": "assets/players/alemao.jpg",
       "mainTeam": true
     },
     {
@@ -322,7 +322,7 @@
       "nationality" : "Argentina",
       "number": 35,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/braianRomero.jpg",
       "mainTeam": false
     },
     {
@@ -335,7 +335,7 @@
       "nationality" : "Argentina",
       "number": 14,
       "goals": 3,
-      "imagePath": ".../",
+      "imagePath": "assets/players/dePena.jpg",
       "mainTeam": true
     },
     {
@@ -348,7 +348,7 @@
       "nationality" : "Brasil",
       "number": 17,
       "goals": 2,
-      "imagePath": ".../",
+      "imagePath": "assets/players/david.jpg",
       "mainTeam": false
     },
     {
@@ -361,7 +361,7 @@
       "nationality" : "Brasil",
       "number": 77,
       "goals": 1,
-      "imagePath": ".../",
+      "imagePath": "assets/players/gustavoMaia.jpg",
       "mainTeam": false
     },
     {
@@ -374,7 +374,7 @@
       "nationality" : "Brasil",
       "number": 32,
       "goals": 0,
-      "imagePath": ".../",
+      "imagePath": "assets/players/mikael.jpg",
       "mainTeam": false
     },
     {
@@ -387,7 +387,7 @@
       "nationality" : "Brasil",
       "number": 28,
       "goals": 7,
-      "imagePath": ".../",
+      "imagePath": "assets/players/pedroHernique.jpg",
       "mainTeam": false
     },
     {
@@ -400,7 +400,7 @@
       "nationality" : "Brasil",
       "number": 7,
       "goals": 44,
-      "imagePath": ".../",
+      "imagePath": "assets/players/taison.jpg",
       "mainTeam": false
     },
     {
@@ -413,7 +413,7 @@
       "nationality" : "Brasil",
       "number": 11,
       "goals": 7,
-      "imagePath": ".../",
+      "imagePath": "assets/players/wanderson.jpg",
       "mainTeam": true
     }
   ]

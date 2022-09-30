@@ -25,3 +25,10 @@ export interface IMemory {
   description: string;
   imgPath: string;
 }
+
+export interface IHonour {
+  id: number;
+  league: string;
+  year: number[];
+  imgPath: string;
+}

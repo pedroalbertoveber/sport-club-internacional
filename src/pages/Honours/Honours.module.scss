@@ -1,0 +1,25 @@
+@import 'styles/_colors.scss';
+
+.container {
+  padding: 2em 1em;
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    max-width: 1200px;
+    
+    h1 {
+      font-size: 2em;
+      color: $red-default;
+      font-weight: 700;
+    }
+
+    span {
+      font-size: .8em;
+      color: $dark-grey;
+    }
+  }
+}

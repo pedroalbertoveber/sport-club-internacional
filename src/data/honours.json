@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "league": "Campeonato Gaúcho",
+    "year": [ 1927, 1934, 1940, 1941, 1942, 1943, 1944, 1945, 1947, 1948, 1950, 1951, 1952, 1953, 1955, 1961, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1978, 1981, 1982, 1983, 1984, 1991, 1992, 1994, 1997, 2002, 2003, 2004, 2005, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016 ],
+    "imgPath": "assets/honours/campeonatoGaucho.jpg"
+  },
+  {
+    "id": 2,
+    "league": "Campeonato Brasileiro",
+    "year": [ 1976, 1977, 1979 ],
+    "imgPath": "assets/honours/campeonatoBrasileiro.jpg"
+  },
+  {
+    "id": 3,
+    "league": "Copa do Brasil",
+    "year": [ 1992 ],
+    "imgPath": "assets/honours/copaDoBrasil.jpg"
+  },
+  {
+    "id": 4,
+    "league": "Libertadores da América",
+    "year": [ 2006, 2010 ],
+    "imgPath": "assets/honours/libertadores.jpg"
+  },
+  {
+    "id": 5,
+    "league": "Mundial de Clubes - FIFA",
+    "year": [ 2006 ],
+    "imgPath": "assets/honours/mundialFifa.jpg"
+  },
+  {
+    "id": 6,
+    "league": "Sulamericana",
+    "year": [ 2008 ],
+    "imgPath": "assets/honours/sulAmericana.jpg"
+  },
+  {
+    "id": 7,
+    "league": "Recopa SulAmericana",
+    "year": [ 2007, 2011 ],
+    "imgPath": "assets/honours/recopa.jpg"
+  },
+  {
+    "id": 8,
+    "league": "Copa SurugaBank",
+    "year": [ 2009 ],
+    "imgPath": "assets/honours/surugaBank.jpg"
+  }
+]
