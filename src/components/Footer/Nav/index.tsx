@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Nav.module.scss';
 
 const Nav = (): ReactElement => {
@@ -6,16 +7,16 @@ const Nav = (): ReactElement => {
     <nav className={styles.navList}>
       <ul>
         <li>
-          <a href="#">CLUBE</a>
+          <Link to='/sobre'>CLUBE</Link>
         </li>
         <li>
-          <a href="#">PLANTEL</a>
+          <Link to='/plantel'>PLANTEL</Link>
         </li>
         <li>
-          <a href="#">TROFÉUS</a>
+          <Link to='/trofeus'>TROFÉUS</Link>
         </li>
         <li>
-          <a href="#">INTER STORE</a>
+          <Link to=''>INTER STORE</Link>
         </li>
       </ul>
     </nav>

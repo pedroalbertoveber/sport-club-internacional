@@ -3,6 +3,7 @@ import styles from './Header.module.scss';
 import { BsPerson } from 'react-icons/bs';
 import { CgMenu, CgClose } from 'react-icons/cg';
 import MobileNav from './MobileNav';
+import { Link } from 'react-router-dom';
 
 const Header = (): ReactElement => {
 
@@ -30,17 +31,17 @@ const Header = (): ReactElement => {
         </div>
         <nav className={styles.menu__nav}>
           <ul className={styles.menu__nav_list}>
-            <li>CLUBE</li>
-            <li>PLANTEL</li>
-            <li>TROFÉUS</li>
-            <li>INTER STORE</li>
+            <li><Link to='/sobre'>CLUBE</Link></li>
+            <li><Link to='/plantel'>PLANTEL</Link></li>
+            <li><Link to='/trofeus'>TROFÉUS</Link></li>
+            <li><Link to='/'>INTER STORE</Link></li>
             <li className={styles.sejaSocio}>ASSOCIE-SE</li>
           </ul>
         </nav>
       </div>
     </header>
     <div className={styles.navContainer}>
-      <MobileNav openMenu={ openMenu }/>
+      <MobileNav openMenu={ openMenu } setOpenMenu={setOpenMenu}/>
     </div>
     </>
   );

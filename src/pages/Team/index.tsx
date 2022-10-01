@@ -16,7 +16,7 @@ const Team = (): ReactElement => {
       </div>
       <div className={styles.playerContainer}>
         { playerList.map(player => (
-          <PlayerCard {...player} />
+          <PlayerCard {...player} key={player.id}/>
         )) }
       </div>
     </section>
