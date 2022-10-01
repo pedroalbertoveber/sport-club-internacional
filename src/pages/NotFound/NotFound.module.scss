@@ -1,0 +1,35 @@
+@import 'styles/_colors.scss';
+
+.container {
+  padding: 2em 1em;
+
+  &__button {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    button {
+      border: none;
+      background-color: $red-default;
+      color: $white-default;
+      padding: 1em 2em;
+      border-radius: 25px;
+      font-size: 1em;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      svg {
+        font-size: 1.3em;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__svg {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

@@ -5,6 +5,7 @@ import Club from 'pages/Club';
 import Honours from 'pages/Honours';
 import Team from 'pages/Team';
 import Player from 'pages/Player';
+import NotFound from 'pages/NotFound';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path='trofeus' element={<Honours />} />
             <Route path='plantel' element={<Team />} />
             <Route path='plantel/:n' element={<Player />} />
+            <Route path='*' element={<NotFound />} />
           </Route>
         </Routes>
       </Router>
