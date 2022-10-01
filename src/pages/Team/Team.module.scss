@@ -1,0 +1,32 @@
+@import 'styles/_colors.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 1em 5em;
+
+  .playerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .pageTitle {
+    width: 100%;
+    max-width: 1400px;
+    margin-bottom: 2em;
+    padding-left: 1em;
+    display: flex;
+    justify-content: start;
+
+
+    h1 {
+      width: 100%;
+      font-size: 2em;
+      font-weight: 700;
+    }
+  }
+}

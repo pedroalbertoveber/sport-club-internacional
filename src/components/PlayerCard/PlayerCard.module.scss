@@ -1,0 +1,69 @@
+@import 'styles/_colors.scss';
+@import 'styles/_breakpoints.scss';
+
+.cardContainer {
+  width: 80%;
+  max-width: 318px;
+  height: 400px;
+  position: relative;
+  margin: 1em auto;
+  
+  .playerNumber {
+    width: 40px;
+    height: 40px;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: $red-default;
+    color: $white-default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .playerLink {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $red-default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    svg {
+      color: $white-default;
+    }
+  }
+
+  .playerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(transparent, black);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 40px 0 20px 0;
+    strong {
+      font-weight: 600;
+      font-size: 1.2em;
+      color: $white-default;
+    }
+    span {
+      font-weight: 400;
+      font-size: 1em;
+      color: $white-default;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
