@@ -19,7 +19,7 @@ const PlayerCard = (props: IPlayer): ReactElement => {
         { number }
       </div>
       <div className={styles.playerLink}>
-        <Link to={`${number}`}>
+        <Link to={`/jogadores/${number}`}>
           { <ImForward /> }
         </Link>
       </div>

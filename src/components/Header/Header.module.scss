@@ -101,7 +101,7 @@
           color: $white-default;
           cursor: pointer;
 
-          &:last-child {
+          &:last-child a {
             color: #000;
             font-weight: 700;
           }

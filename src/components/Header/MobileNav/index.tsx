@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styles from './MobileNav.module.scss';
 
 interface Props {
@@ -20,7 +20,9 @@ const MobileNav = ({ openMenu, setOpenMenu }: Props): ReactElement => {
         </ul>
       </nav>
       <button type='button'>
-        ASSOCIE-SE
+        <a  href='https://internacional.com.br/associe-se' target='_blank' rel="noreferrer">
+          ASSOCIE-SE
+        </a>
       </button>
     </div>
   );
