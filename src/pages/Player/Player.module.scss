@@ -1,2 +1,149 @@
 @import 'styles/_colors.scss';
 @import 'styles/_breakpoints.scss';
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1000px;
+  margin: 2em auto 3em;  
+
+  &__image {
+    width: 50%;
+    max-width: 400px;
+    height: 500px;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    div {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: $red-default;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $white-default;
+      font-weight: 600;
+      position: absolute;
+      top: -10px;
+      left: -5px;
+    }
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__header {
+
+      margin-bottom: 30px;
+      margin-top: 12px;
+
+      span {
+        color: $dark-grey;
+        font-size: 1.2em;
+      }
+      h2 {
+        font-size: 2em;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em 1em 5em;
+  width: 100%;
+  max-width: 1000px;
+
+  button {
+    cursor: pointer;
+    background-color: $red-default;
+    color: $white-default;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center; 
+
+    svg {
+      font-size: 2em;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-devices) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 2em 3em;
+
+  
+    &__image {
+      width: 100%;
+     }
+  
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: flex-start;
+
+      &__description {
+        display: flex;
+        flex-wrap: wrap;
+      }
+  
+      &__header {
+  
+        margin-bottom: 30px;
+        margin-top: 12px;
+  
+        span {
+          color: $dark-grey;
+          font-size: 1.2em;
+        }
+        h2 {
+          font-size: 2em;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1em 1em 5em;
+    width: 100%;
+    max-width: 1000px;
+  
+    button {
+      cursor: pointer;
+      background-color: $red-default;
+      color: $white-default;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 20px;
+      display: flex;
+      align-items: center; 
+  
+      svg {
+        font-size: 2em;
+      }
+    }
+  }
+}

@@ -17,7 +17,7 @@ function App() {
             <Route path='sobre' element={<Club />} />
             <Route path='trofeus' element={<Honours />} />
             <Route path='plantel' element={<Team />} />
-            <Route path='plantel/:n' element={<Player />} />
+            <Route path=':n' element={<Player />} />
             <Route path='login' element={<Login />} />
             <Route path='*' element={<NotFound />} />
           </Route>
