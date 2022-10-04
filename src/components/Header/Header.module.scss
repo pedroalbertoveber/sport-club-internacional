@@ -5,6 +5,20 @@
   display: none;
 }
 
+.logged {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 1.2em;
+    color: $white-default;
+  }
+
+  button {
+    margin-left: 10px;
+  }
+}
+
 .header {
   width: 100%;
   height: 130px;

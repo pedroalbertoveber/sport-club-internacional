@@ -4,7 +4,7 @@ import styles from './Input.module.scss';
 
 interface Props {
   state: string;
-  setState: React.Dispatch<React.SetStateAction<string>>;
+  setState: (newState: string ) => void;
   type: 'text' | 'password';
 }
 

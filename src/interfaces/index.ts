@@ -32,3 +32,10 @@ export interface IHonour {
   year: number[];
   imgPath: string;
 }
+
+export interface INews {
+  id: number;
+  title: string;
+  description: string;
+  imagePath: string;
+}

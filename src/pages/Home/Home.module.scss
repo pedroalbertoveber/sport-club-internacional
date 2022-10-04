@@ -1,0 +1,26 @@
+@import 'styles/_colors.scss';
+
+.homeContainer {
+  padding: 2em 1em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 1em;
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

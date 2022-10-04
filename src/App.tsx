@@ -7,6 +7,7 @@ import Team from 'pages/Team';
 import Player from 'pages/Player';
 import NotFound from 'pages/NotFound';
 import Login from 'pages/Login';
+import Home from 'pages/Home';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Default />}>
+            <Route index element={<Home />} />
             <Route path='sobre' element={<Club />} />
             <Route path='trofeus' element={<Honours />} />
             <Route path='plantel' element={<Team />} />

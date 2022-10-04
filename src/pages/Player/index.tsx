@@ -15,7 +15,7 @@ const Player = (): ReactElement => {
   const player = players.find(item => item.number === Number(n));
 
   if (!player) {
-    return <NotFound />
+    return <NotFound />;
   }
 
   const next = players.find(item => item.id === player?.id + 1);

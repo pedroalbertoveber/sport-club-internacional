@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Reta final do Brasileirão",
+    "description": "Venha apoiar o colorado nesta reta final do campeonato brasileiro! Neste momento, estamos garantidos na vice-liderança, somente atrás do lider Palmeiras",
+    "imagePath": "assets/news/brasileirao.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Valeu, Gurias!",
+    "description": "Gurias coloradas não conseguem bater o Corínthias na Neo-Química Arena e terminam o campeoanto brasileiro feminino na segunda colocação.",
+    "imagePath": "assets/news/guriasColoradas.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Paulo Autuori confirma saída do Inter",
+    "description": "Após receber proposta para treinar o Atlético Nacional de Medelin, Paulo Autuori deixa o cargo de Diretor Técnico à disposição. Desejamos sucesso ao profissional.",
+    "imagePath": "assets/news/pauloAutuori.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Gabriel sai carregado de campo",
+    "description": "Foi constatado uma ruptura ligamentar no joelho do volante colorado. Gabriel deve permanecer afastado dos gramados por, pelo menos, 8 meses de recuperação. ",
+    "imagePath": "assets/news/gabriel.jpg"
+  }
+]

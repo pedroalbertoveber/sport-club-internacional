@@ -1,14 +1,17 @@
-import React, { ReactElement, useState } from 'react';
+import React, { ReactElement, useContext, useState } from 'react';
 import styles from './Header.module.scss';
 import { BsPerson } from 'react-icons/bs';
 import { CgMenu, CgClose } from 'react-icons/cg';
+import { FiLogOut } from 'react-icons/fi';
 import MobileNav from './MobileNav';
 import { Link, useNavigate } from 'react-router-dom';
+import { UserContext } from 'context/UserContext';
 
 const Header = (): ReactElement => {
 
   const [ openMenu, setOpenMenu ] = useState<boolean>(false);
   const navigate = useNavigate();
+  const { name, setName, setPassword, isLogged, setIsLogged } = useContext(UserContext);
 
   return (
     <>
@@ -22,10 +25,24 @@ const Header = (): ReactElement => {
       </div>
       <div className={styles.menu}>
         <div className={styles.menu__areaSocio}>
-          <button type='button' onClick={() => navigate('/login')}>
-            <BsPerson />
-            <span>Área do sócio</span>
-          </button>
+            { isLogged ? 
+            <div className={styles.logged}>
+              <span>Olá, {name}</span>
+              <button type='button' onClick={() => {
+                setIsLogged(false);
+                setName('');
+                setPassword('');                
+                }}>
+                { <FiLogOut />}
+              </button>
+            </div>
+            
+            :
+            <button type='button' onClick={() => navigate('/login')}>
+              <BsPerson />
+              <span>Área do sócio</span>
+            </button>
+            }
           <button className={styles.menu__toggle} onClick={() => setOpenMenu(!openMenu)}>
             {openMenu ? <CgClose /> : <CgMenu />}
           </button>
